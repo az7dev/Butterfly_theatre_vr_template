@@ -1,0 +1,202 @@
+.container {
+  position: absolute;
+  z-index: 1000;
+  width: 100vw;
+  // margin: 15px;
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: flex-start;
+  // align-items: center;
+  // flex-wrap: wrap;
+}
+
+.instruct3 {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  z-index: 1000;
+  object-fit: contain;
+  width: 10vw;
+}
+
+.instruct2 {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  z-index: 1000;
+  object-fit: contain;
+  width: 5vw;
+}
+
+.instruct1 {
+  position: absolute;
+  top: 25px;
+  right: 40vw;
+  z-index: 1000;
+  object-fit: contain;
+  width: 15vw;
+}
+
+.searchbar:active {
+  border: none;
+}
+
+.btn {
+  width: max-content;
+  height: 40px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid white;
+  // padding-top: 15px;
+  // padding-bottom: 15px;
+  // border: white;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  // opacity: 0.5;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 15px;
+  // box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+  padding-left: 10px;
+  font: 0.8125rem sans-serif;
+
+  // display: flex;
+  // flex-direction: row;
+  // align-items: center;
+  // justify-content: space-around;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+
+.btn:focus {
+  background-color: white;
+  color: #512f86;
+  font-weight: bold;
+}
+
+.searchbar {
+  position: relative;
+  padding: 15px;
+  border-radius: 15px;
+  width: 25%;
+  font-size: 130%;
+  border: 1px solid black;
+  margin: 15px 0px 0px 15px;
+}
+
+.brandLogo {
+  position: absolute;
+  width: 15vw;
+  height: auto;
+  top: 10px;
+  right: 10px;
+  padding: 1px;
+  background-color:  #f7f7f7;
+  border: 9px solid #f7f7f7;
+  
+}
+
+.auto {
+  right: 10px;
+  position: "absolute";
+
+}
+
+.btnss {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 15px 0px 0px 15px;
+}
+
+.card-logo {
+  // position: absolute;
+  display: flex;
+  flex-direction: row;
+  // max-width: 50px;
+  // max-height: 50%;
+  // object-fit: contain;
+}
+.logo-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.card-container-logo {
+  z-index: 25;
+  background-color: white;
+  position: absolute;
+  left: 20px;
+  width: 450px;
+  height: fit-content;
+  top: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  padding-top: 5px;
+  overflow: hidden;
+}
+
+// @media screen and (max-width: 960px) {
+//   .brandLogo {
+//     top: 90px;
+//   }
+// }
+
+@media (pointer: coarse) {
+  .instruct1 {
+    display: none;
+  }
+  .instruct2 {
+    display: none;
+  }
+  .instruct3 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .container {
+    display: block;
+  }
+
+  .btnss {
+    position: relative;
+    top: 10px;
+    overflow-x: scroll;
+    justify-content: flex-start;
+  }
+  .searchbar {
+    width: 75%;
+    position: absolute;
+    top: 80vh;
+    left: 5vw;
+  }
+
+  .card-container-logo {
+    width: 40vw;
+    font-size: 85%;
+    height: min-content;
+    position: relative;
+    // bottom: 50px;
+    top: 20vh;
+    left: 5vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  // .searchbar {
+  //   width: 75%;
+  //   position: absolute;
+  // }
+
+  .brandLogo {
+    display: none;
+  }
+}

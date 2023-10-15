@@ -1,0 +1,25 @@
+.controller1 {
+  display: none;
+}
+
+.controller2 {
+  display: none;
+}
+
+@media (pointer: coarse) {
+  .controller1 {
+    display: block;
+    position: absolute;
+    bottom: 5%;
+    left: calc(0% + 50px);
+    z-index: 100;
+  }
+
+  .controller2 {
+    display: block;
+    position: absolute;
+    bottom: 5%;
+    left: calc(100% - 150px);
+    z-index: 100;
+  }
+}

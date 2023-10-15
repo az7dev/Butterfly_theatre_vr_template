@@ -1,0 +1,83 @@
+.loading-screen {
+  //   z-index: 200;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  //   background-image: url("../loading-screen/background.png");
+  background-color: #f7f7f7;
+  width: 100vw !important;
+  height: 100vh !important;
+  color: rgb(235, 46, 55);
+  // padding-top: 40px;
+  position: relative;
+  justify-content: center;
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    .upper-img {
+      // background-color: aqua;
+      height: 20vh;
+      width: 30vw;
+      display: flex;
+      align-items: flex-end;
+      justify-content: end;
+      flex-direction: row;
+      bottom: 10;
+
+      img {
+        position: relative;
+        bottom: 10px;
+        margin: auto;
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+
+    .loader {
+      // background-color: crimson;
+      height: 1vh;
+      width: 30vw;
+      margin: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .lower-img {
+      // background-color: plum;
+      height: 25vh;
+      width: 75vw;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        position: relative;
+        margin: auto;
+        max-width: 100%;
+        max-height: 100%;
+        left: 5vw;
+      }
+    }
+  }
+
+  // .upper-img img {
+  //   width: 30vw;
+  // }
+
+  // .loader {
+  //   margin-top: 40px;
+  // }
+
+  // .lower-img img {
+  //   position: relative;
+  //   left: 4vw;
+  //   width: 35vw;
+  //   padding-top: 100px;
+  // }
+}

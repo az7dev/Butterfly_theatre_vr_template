@@ -1,0 +1,39 @@
+body {
+  /* background-color: #fef9f9; */
+  margin: 0;
+  overflow: hidden;
+}
+
+canvas {
+  position: relative;
+  /* z-index: 2; */
+}
+
+#three-canvas-container {
+  height: 100vh !important;
+  width: 100vw !important;
+}
+
+.content {
+  width: 522px;
+  height: 250px;
+  /* background: #f0f0f0; */
+  border-radius: 3px;
+  /* overflow-y: auto; */
+  padding: 0;
+}
+
+.wrapper {
+  padding: 1px;
+  width: 1050px;
+  height: 500px;
+  transform: scale(0.5);
+  transform-origin: top left;
+}
+
+/* @media only screen and (orientation:portrait) {
+  body {
+    height: 100vw;
+    transform: rotate(90deg);
+  }
+} */
