@@ -1,6 +1,8 @@
 # Butterfly_theatre_vr_template
 template for vr session in theatre.js butterfly scene
 
+![ezgif com-video-to-gif](https://github.com/az7dev/Butterfly_theatre_vr_template/assets/93381977/8e443e7d-1c2f-48a2-b967-1d08aceadf09)
+
 Starting pack containing :
 - Three.js
 - React Three Fiber (r3f)
@@ -15,9 +17,11 @@ use zsh if necessary
 yarn install
 yarn dev
 ```
+controls in meta quest 2 
+trigger to move left (both controllers set default to move left)
+grip for moving up
 
-
-![image](https://user-images.githubusercontent.com/6551176/205005323-6c7ca9bf-d877-48da-bbd4-a886590855c8.png)
+![image](https://github.com/az7dev/Butterfly_theatre_vr_template/blob/main/vr%20.png)
 
 happy learning !!!
 Link to the full tutorial
