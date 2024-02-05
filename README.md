@@ -6,11 +6,11 @@ template for vr session in theatre.js butterfly scene
 Starting pack containing :
 - Three.js
 - React Three Fiber (r3f)
-@@ -17,11 +15,9 @@ use zsh if necessary
+```
 yarn install
 yarn dev
 ```
-controls in meta quest 2 
+## controls in meta quest 2 
 trigger to move left (both controllers set default to move left)
 grip for moving up
 
